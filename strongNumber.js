@@ -21,3 +21,4 @@ if(sum == original){
 }else{
     console.log("This is Not a Strong Number");
 }
+  
