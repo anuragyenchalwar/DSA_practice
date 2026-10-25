@@ -9,3 +9,13 @@ for(i=0;i<=n;i++){
     }
     console.log(row);
 }
+
+//reverse pyramid
+let n2 = Number(prompt("Enter number of rows :"));
+for(i=0;i<=n2;i++){
+    let row = "";
+    for(let j=n2; j<=i;j--){
+        row += '* '
+    }
+    console.log(row);
+} 
