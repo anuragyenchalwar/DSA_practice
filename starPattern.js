@@ -11,11 +11,15 @@ for(i=0;i<=n;i++){
 }
 
 //reverse pyramid
-let n2 = Number(prompt("Enter number of rows :"));
-for(i=0;i<=n2;i++){
+
+let n2 = Number(prompt("Enter number of rows for reverse pyramid:"));
+
+for (let i = n2; i >= 1; i--) {
     let row = "";
-    for(let j=n2; j<=i;j--){
-        row += '* '
+
+    for (let j = 1; j <= i; j++) {
+        row += "* ";
     }
+
     console.log(row);
-} 
+}
